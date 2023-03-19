@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: E:/UAV-benchmark-M/manifest_ignore_train.txt # 118k images
+val: E:/UAV-benchmark-M/manifest_ignore_val.txt  # 5k images
+#test: E:/Vis_Vehicle_testset/images  # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 3
+
+# class names
+names: ['truck','car','bus']

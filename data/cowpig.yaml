@@ -1,0 +1,11 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: D:/AIhub/COWPIG/cowpig/Training/images  # 118k images
+val: D:/AIhub/COWPIG/cowpig/Validation/images  # 5k images
+#test: ../coco/testdev2017.txt  # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 2
+
+# class names
+names: ["cow","pig"]
+
